@@ -15,10 +15,23 @@ header div{
     width: 50%;
     justify-content: flex-start;
 }
+header div div div{
+    align-items: flex-start;
+}
 nav{
     width: 50%;
 }
-header nav ul{
+header div img{
+    padding: 10px;
+    border-radius: 50px;
+    width: 30%;
+    height: 30%;
+}
+header div img:hover{
+    padding: 1px;
+    background-color: #ff6949;
+}
+/*header nav ul{
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
@@ -27,7 +40,7 @@ header nav ul{
     justify-content: space-evenly;
     align-items: center;
 }
-header nav ul li{
+/*header nav ul li{
     padding: 10px;
     border-radius: 50%;
 }
@@ -61,6 +74,7 @@ header div p{
 
     }
 }
+*/
 /*hasta aca header*/
 
 footer{

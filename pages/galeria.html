@@ -25,27 +25,53 @@
 
 <body>
     <header>
-        <div>
-            <a href="../index.html"><img src="../assets/img/logoSV.png" alt=""></a>
-            <p>Siempreviva Cuidado Natural</p>
+        <div class="navbar bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logoSV.png" alt=" "></a>
+                <div>Siempreviva Cuidado Natural</div>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./conocenos.html">Conocenos</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contactanos.html">Contactanos</a></li>
-                <li><a href="./shop.html">Quiero Comprar</a></li>
-                <img src="../assets/iconos/carrito-de-compras.png" alt="">
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactanos.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop.html">Quiero Comprar</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main id="galeria" class="container">
         <div class="subtitulo">
             <h1>Mira nuestro productos</h1>
         </div>
-        <div id="carousel-control-height 300px" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="../assets/img/galeria1.jpeg" class="d-block w-200" alt="...">
