@@ -127,19 +127,7 @@ footer div ul{
 /*hasta aca conocenos*/
 
 /*arranca productos*/
-.productos{
-    display: flex;
-    align-content: space-between;
-}
-.productos div{
-    display: flex;
-    flex-wrap: wrap;
-}
-.productos div img{
-    width: 200px;
-    height: 200px;
 
-}
 /*hasta aca productos*/
 
 /*comienza galeria*/
