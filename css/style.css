@@ -6,20 +6,19 @@
     font-family: 'Raleway', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
 }
-
 header{
     display: flex;
 }
 header div{
     display: flex;
-    width: 50%;
+    width: 40%;
     justify-content: flex-start;
 }
 header div div div{
     align-items: flex-start;
 }
 nav{
-    width: 50%;
+    width: 60%;
 }
 header div img{
     padding: 10px;
@@ -83,6 +82,7 @@ footer{
 }
 footer div{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 }
@@ -91,10 +91,12 @@ footer div p{
 }
 footer div ul{
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     width: 30%;
     justify-content: space-evenly;
 }
+
 /*hasta aca footer*/
 
 .descripcion_historia{
