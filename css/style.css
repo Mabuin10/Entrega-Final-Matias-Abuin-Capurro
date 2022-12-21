@@ -6,6 +6,7 @@
     font-family: 'Raleway', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 /*arranca header*/
 
 .imagen{
@@ -131,6 +132,7 @@ footer div ul{
 }
 /*hasta aca galeria*/
 
+/*arranca contactanos*/
 .division_formulario{
     display: flex;
 }
@@ -167,6 +169,14 @@ footer div ul{
 .ubicanos div{
     flex-direction: column;
 }
+h3{
+    display: flex;
+    justify-content: center;
+    color:#ff6949
+}
+/*hasta aca contactanos*/
+
+/*shop*/
 .shop{
     display: flex;
 }
@@ -197,11 +207,6 @@ ol{
     padding-left: 10px;
     list-style-type:none;
 }
-h3{
-    display: flex;
-    justify-content: center;
-    color:#ff6949
-}
 .shop section div button{
     background-color: #bebab8;
 }
@@ -213,3 +218,4 @@ h3{
 i{
     font-size: 30px;
 }
+/*hasta aca shop*/
