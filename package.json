@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mabuin10/preentrega2-Matias-Abuin-Capurro.git"
+    "url": "git+https://github.com/Mabuin10/preentrega3-Matias-Abuin-Capurro.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mabuin10/preentrega2-Matias-Abuin-Capurro/issues"
+    "url": "https://github.com/Mabuin10/preentrega3-Matias-Abuin-Capurro/issues"
   },
-  "homepage": "https://github.com/Mabuin10/preentrega2-Matias-Abuin-Capurro#readme",
+  "homepage": "https://github.com/Mabuin10/preentrega3-Matias-Abuin-Capurro#readme",
   "dependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
