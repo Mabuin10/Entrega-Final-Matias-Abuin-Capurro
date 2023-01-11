@@ -77,12 +77,8 @@ footer {
   flex-direction: column; }
   .descripcion_historia div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%; }
-  .descripcion_historia div img {
-    width: 300px;
-    height: 300px;
-    border-radius: 30px; }
 
 #galeria img {
   width: 100%;
