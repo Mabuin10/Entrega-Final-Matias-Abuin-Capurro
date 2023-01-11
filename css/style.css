@@ -4,8 +4,8 @@
   box-sizing: border-box; }
 
 * {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   background-color: whitesmoke; }
 
 .imagen {
@@ -32,7 +32,7 @@ footer {
       flex-wrap: wrap;
       list-style-type: none;
       width: 30%;
-      justify-content: space-evenly; }
+      justify-content: space-between; }
 
 .subtitulo {
   display: flex;

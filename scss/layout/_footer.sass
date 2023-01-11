@@ -1,12 +1,11 @@
 footer
-    display: flex
-    flex-direction: column
+    @include flex-direction-column
 
     div
         display: flex
         flex-wrap: wrap
         width: 100%
-        justify-content: center
+        @include position-center
 
         p
             text-align: center
@@ -16,4 +15,5 @@ footer
             flex-wrap: wrap
             list-style-type: none
             width: 30%
-            justify-content: space-evenly
+            @include position-between
+            
