@@ -1,7 +1,14 @@
 li:hover
-        border: 0.5px solid
+    border: 0.5px solid
+    border-radius: 50px
+    border-color: $second
+a
+    transition: 0.2s
+
+    &:hover
+        background-color: $third
         border-radius: 50px
-        border-color: $third 
+
 .imagen
     padding: 10px
     border-radius: 50px
@@ -11,3 +18,9 @@ li:hover
     &:hover
         padding: 1px
         background-color: $third
+
+@media (max-width: 900px)
+
+    .imagen
+        width: 150px
+        height: 150px
