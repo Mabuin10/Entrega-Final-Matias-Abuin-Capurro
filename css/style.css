@@ -8,6 +8,11 @@
   font-family: "Josefin Sans", sans-serif;
   background-color: whitesmoke; }
 
+li:hover {
+  border: 0.5px solid;
+  border-radius: 50px;
+  border-color: #ff6949; }
+
 .imagen {
   padding: 10px;
   border-radius: 50px;
@@ -19,7 +24,10 @@
 
 footer {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-top: 20px;
+  border: 1px solid;
+  border-color: #ff6949; }
   footer div {
     display: flex;
     flex-wrap: wrap;
