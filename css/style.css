@@ -60,7 +60,8 @@ footer {
   display: flex;
   justify-content: center; }
   .subtitulo h1 {
-    color: #8b837e; }
+    color: #8b837e;
+    font: "Josefin Slab", sans-serif; }
 
 .barra_busqueda {
   display: flex;
