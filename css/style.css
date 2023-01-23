@@ -31,6 +31,16 @@ a {
 .text-center p {
   font-size: large; }
 
+.nav-link {
+  font-weight: bold;
+  font-size: large;
+  color: #8b837e; }
+
+.btn-outline-success {
+  border-color: #ff6949; }
+  .btn-outline-success:hover {
+    background-color: #ff6949; }
+
 @media (max-width: 1000px) {
   .imagen {
     width: 150px;
@@ -74,6 +84,7 @@ footer {
   padding-top: 50px;
   justify-content: center; }
   .formato_novedades h2 {
+    align-self: center;
     color: #ff6949; }
 
 .contenedor-imagenes-index {
@@ -110,7 +121,8 @@ footer {
     grid-auto-rows: 400px; }
   .contenedor-imagenes-index {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 400px; } }
 
 .descripcion_historia {
   display: flex;
@@ -198,13 +210,6 @@ footer {
   .imagen-galeria:nth-child(20) {
     grid-column-start: span 2; } }
 
-.division_formulario {
-  display: flex; }
-  .division_formulario section {
-    display: flex;
-    flex-direction: column;
-    width: 30%; }
-
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -217,10 +222,16 @@ footer {
     width: 100%;
     position: absolute; }
 
+.btn-primary {
+  background-color: #ff6949; }
+  .btn-primary:hover {
+    background-color: #8b837e; }
+
 h3 {
   display: flex;
   justify-content: center;
-  color: #ff6949; }
+  color: #ff6949;
+  padding-top: 50px; }
 
 .shop {
   display: flex; }
