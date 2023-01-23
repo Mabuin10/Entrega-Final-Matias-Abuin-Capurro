@@ -119,18 +119,42 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: 400px; }
-  .contenedor-imagenes-index {
+  .contenedor-video-index {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: 400px; } }
 
-.descripcion_historia {
+.contenedor-img-historia {
   display: flex;
-  flex-direction: column; }
-  .descripcion_historia div {
-    display: flex;
-    flex-direction: column;
-    width: 100%; }
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  padding: 50px; }
+  .contenedor-img-historia img {
+    float: left;
+    padding-right: 50px;
+    height: 50%;
+    width: 50%;
+    border-radius: 50px; }
+  .contenedor-img-historia p {
+    height: auto;
+    width: 400px; }
+
+.contenedor-img-historia-izq {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  padding: 50px; }
+  .contenedor-img-historia-izq img {
+    height: 50%;
+    width: 50%;
+    border-radius: 50px;
+    padding-left: 50px; }
+  .contenedor-img-historia-izq p {
+    height: auto;
+    width: 400px; }
 
 .contenedor-galeria {
   display: grid;
