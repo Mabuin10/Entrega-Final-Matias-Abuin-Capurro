@@ -1,35 +1,70 @@
 .contenedor-img-historia
     display: flex
-    justify-content: center
     align-items: center
+    text-align: center
+    flex-direction: column
     object-fit: cover
-    padding: 50px
-
-    & img
-        float: left
-        padding-right: 50px 
-        height: 50%
-        width: 50%
-        border-radius: 50px
-
-    p
-        height: auto
+    img
+        padding-top: 15px
+        display: flex
+        height: 400px
         width: 400px
+        border-radius: 50px
+    p
+        padding: 10px
+        font-size: medium
 
 .contenedor-img-historia-izq
     display: flex
-    flex-direction: row-reverse
-    justify-content: center
     align-items: center
+    text-align: center
+    flex-direction: column
     object-fit: cover
-    padding: 50px
-
     img
-        height: 50%
-        width: 50%
-        border-radius: 50px
-        padding-left: 50px 
-
-    p
-        height: auto
+        display: flex
+        height: 500px
         width: 400px
+        border-radius: 50px
+    p
+        padding: 10px
+        font-size: medium
+
+@media (min-width: 1024px)
+
+    .contenedor-img-historia
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        object-fit: cover
+        padding: 50px
+
+        img
+            padding-right: 50px
+            height: 50%
+            width: 50%
+            border-radius: 50px
+
+        p
+            font-size: 30px
+            height: auto
+            width: auto
+
+    .contenedor-img-historia-izq
+        display: flex
+        flex-direction: row-reverse
+        justify-content: center
+        align-items: center
+        object-fit: cover
+        padding: 50px
+
+        img
+            height: 50%
+            width: 50%
+            border-radius: 50px
+            padding-left: 50px
+
+        p
+            font-size: 30px
+            height: auto
+            width: auto

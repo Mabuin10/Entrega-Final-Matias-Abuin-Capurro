@@ -84,6 +84,7 @@ footer {
   padding-top: 50px;
   justify-content: center; }
   .formato_novedades h2 {
+    text-align: center;
     align-self: center;
     color: #ff6949; }
 
@@ -126,35 +127,68 @@ footer {
 
 .contenedor-img-historia {
   display: flex;
-  justify-content: center;
   align-items: center;
-  object-fit: cover;
-  padding: 50px; }
+  text-align: center;
+  flex-direction: column;
+  object-fit: cover; }
   .contenedor-img-historia img {
-    float: left;
-    padding-right: 50px;
-    height: 50%;
-    width: 50%;
+    padding-top: 15px;
+    display: flex;
+    height: 400px;
+    width: 400px;
     border-radius: 50px; }
   .contenedor-img-historia p {
-    height: auto;
-    width: 400px; }
+    padding: 10px;
+    font-size: medium; }
 
 .contenedor-img-historia-izq {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
   align-items: center;
-  object-fit: cover;
-  padding: 50px; }
+  text-align: center;
+  flex-direction: column;
+  object-fit: cover; }
   .contenedor-img-historia-izq img {
-    height: 50%;
-    width: 50%;
-    border-radius: 50px;
-    padding-left: 50px; }
+    display: flex;
+    height: 500px;
+    width: 400px;
+    border-radius: 50px; }
   .contenedor-img-historia-izq p {
-    height: auto;
-    width: 400px; }
+    padding: 10px;
+    font-size: medium; }
+
+@media (min-width: 1024px) {
+  .contenedor-img-historia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 50px; }
+    .contenedor-img-historia img {
+      padding-right: 50px;
+      height: 50%;
+      width: 50%;
+      border-radius: 50px; }
+    .contenedor-img-historia p {
+      font-size: 30px;
+      height: auto;
+      width: auto; }
+  .contenedor-img-historia-izq {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 50px; }
+    .contenedor-img-historia-izq img {
+      height: 50%;
+      width: 50%;
+      border-radius: 50px;
+      padding-left: 50px; }
+    .contenedor-img-historia-izq p {
+      font-size: 30px;
+      height: auto;
+      width: auto; } }
 
 .contenedor-galeria {
   display: grid;
@@ -233,6 +267,16 @@ footer {
     grid-row-start: span 2; }
   .imagen-galeria:nth-child(20) {
     grid-column-start: span 2; } }
+
+.img-fluid {
+  transition: 0.5s; }
+  .img-fluid:hover {
+    border: 1px solid;
+    border-color: #ff6949;
+    transform: scale(1.3); }
+
+h5 {
+  color: #ff6949; }
 
 .map-responsive {
   overflow: hidden;
