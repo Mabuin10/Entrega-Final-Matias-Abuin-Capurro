@@ -278,6 +278,11 @@ footer {
 h5 {
   color: #ff6949; }
 
+@media (min-width: 1280px) {
+  .img-fluid {
+    width: 250px;
+    height: 210px; } }
+
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -337,3 +342,7 @@ ol {
 
 i {
   font-size: 30px; }
+
+.carrito {
+  height: 5px;
+  width: 5px; }
