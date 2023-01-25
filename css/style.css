@@ -315,13 +315,54 @@ h3 {
   padding-top: 50px; }
 
 .shop {
-  display: flex;
-  flex-direction: column; }
+  display: flex; }
   .shop section {
-    width: 50%; }
+    flex-direction: row; }
     .shop section div {
-      flex-direction: row;
+      display: flex;
+      align-items: center;
+      padding: 15px; }
+      .shop section div img {
+        display: flex;
+        justify-self: self-start;
+        width: 30%;
+        height: 20%;
+        border-radius: 50%;
+        border: solid 3px;
+        border-color: #ff6949; }
+      .shop section div p {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: medium;
+        font-weight: 600;
+        color: #ff6949;
+        padding: 15px; }
+      .shop section div label {
+        display: flex;
+        justify-self: self-end; }
+    .shop section button {
+      background-color: #ff6949; }
+      .shop section button:hover {
+        background-color: #8b837e; }
+
+.boton-carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+.titulo-carrito {
+  border-top: solid 5px;
+  border-color: #ff6949; }
+  .titulo-carrito h3 {
+    justify-content: center; }
+
+@media (min-width: 1024px) {
+  .shop {
+    justify-content: center; }
+    .shop section div {
       justify-content: center; }
       .shop section div img {
-        width: 100px;
-        height: 100px; }
+        justify-self: center;
+        height: 150px;
+        width: 150px; } }
