@@ -65,6 +65,8 @@ footer {
       list-style-type: none;
       width: 30%;
       justify-content: space-between; }
+    footer div i {
+      font-size: 30px; }
 
 .subtitulo {
   display: flex;
@@ -134,12 +136,15 @@ footer {
   .contenedor-img-historia img {
     padding-top: 15px;
     display: flex;
-    height: 400px;
+    height: 500px;
     width: 400px;
     border-radius: 50px; }
   .contenedor-img-historia p {
     padding: 10px;
     font-size: medium; }
+  .contenedor-img-historia .img-especial {
+    height: 400px;
+    width: 400px; }
 
 .contenedor-img-historia-izq {
   display: flex;
@@ -149,7 +154,7 @@ footer {
   object-fit: cover; }
   .contenedor-img-historia-izq img {
     display: flex;
-    height: 500px;
+    height: 400px;
     width: 400px;
     border-radius: 50px; }
   .contenedor-img-historia-izq p {
@@ -173,6 +178,9 @@ footer {
       font-size: 30px;
       height: auto;
       width: auto; }
+    .contenedor-img-historia .img-especial {
+      height: 50%;
+      width: 50%; }
   .contenedor-img-historia-izq {
     display: flex;
     flex-direction: row-reverse;
@@ -307,42 +315,13 @@ h3 {
   padding-top: 50px; }
 
 .shop {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
   .shop section {
-    flex-direction: column;
     width: 50%; }
-  .shop section div {
-    display: flex;
-    justify-content: center; }
-  .shop section div img {
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
-    padding-right: 30px; }
-
-.carrito_compras fieldset ol li img {
-  width: 100px;
-  height: 50px; }
-
-.formato_carrito li {
-  display: flex;
-  align-items: center;
-  color: #8b837e; }
-
-ol {
-  padding-left: 10px;
-  list-style-type: none; }
-
-.shop section div button {
-  background-color: whitesmoke; }
-
-.shop section div label {
-  display: flex;
-  align-items: center; }
-
-i {
-  font-size: 30px; }
-
-.carrito {
-  height: 5px;
-  width: 5px; }
+    .shop section div {
+      flex-direction: row;
+      justify-content: center; }
+      .shop section div img {
+        width: 100px;
+        height: 100px; }
